@@ -1,0 +1,42 @@
+.Header{
+   display: block;
+   text-align: center;
+   margin: 10px 0px;
+   justify-content: space-around;
+   font-size: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    height: 40px;
+}
+
+.nav > li{
+  color: white;
+}
+.nav > li:hover{
+    color: pink;
+}
+
+.products{
+width: 25%;
+padding: 10px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+}
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.productDesc{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
